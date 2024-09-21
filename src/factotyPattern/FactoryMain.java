@@ -8,11 +8,12 @@ public class FactoryMain {
         List<Enemy> enemies = new ArrayList<>();
         enemies.add(Factory.getInstance("zombie"));
         enemies.add(Factory.getInstance("dragon"));
-        enemies.add(Factory.getInstance("ZOMBIE"));
+        enemies.add(Factory.getInstance("ZOMbIE"));
         for(Enemy enemy:enemies){
             enemy.attack();
 
         }
+
 
     }
 }

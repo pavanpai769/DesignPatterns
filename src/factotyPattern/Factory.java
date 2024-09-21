@@ -2,7 +2,7 @@ package factotyPattern;
 
 public class Factory {
 
-    private Factory(){}
+    private Factory() throws IllegalArgumentException{}
     public static Enemy getInstance(String enemyType){
         if(enemyType.equalsIgnoreCase("zombie")){
             return new Zombie();
@@ -10,7 +10,7 @@ public class Factory {
         if(enemyType.equalsIgnoreCase("dragon")){
             return new Dragon();
         }
-        return null;
+        throw new IllegalArgumentException();
     }
 
 }

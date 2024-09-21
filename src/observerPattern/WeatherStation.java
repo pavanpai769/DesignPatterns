@@ -17,6 +17,7 @@ public class WeatherStation {
 
     public void setWeather(String weather){
         this.weather=weather;
+        update();
     }
 
     public void update(){

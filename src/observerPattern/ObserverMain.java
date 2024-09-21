@@ -12,6 +12,5 @@ public class ObserverMain {
         weatherStation.addUser(pradeep);
 
         weatherStation.setWeather("Raining");
-        weatherStation.update();
     }
 }

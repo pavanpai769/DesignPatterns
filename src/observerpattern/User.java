@@ -1,4 +1,4 @@
-package observerPattern;
+package observerpattern;
 public class User implements IUser {
 
     String userName;

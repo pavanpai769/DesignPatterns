@@ -1,4 +1,4 @@
-package factotyPattern;
+package factotypattern;
 
 import java.util.ArrayList;
 import java.util.List;

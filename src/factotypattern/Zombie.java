@@ -1,4 +1,4 @@
-package factotyPattern;
+package factotypattern;
 
 public class Zombie implements Enemy{
 

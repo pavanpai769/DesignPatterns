@@ -14,5 +14,7 @@ public class StrategyMain {
 
         videoPlayer3.setVideoQualityStrategy(new MediumQualityStrategy());
         videoPlayer3.playVideo("strategy pattern tutorial");
+
     }
 }
+
